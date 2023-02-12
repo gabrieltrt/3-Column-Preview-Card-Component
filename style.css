@@ -7,9 +7,10 @@
 }
 
 img {
-  max-width: 20%;
+  max-width: 24.5%;
   height: auto;
   display: block;
+  margin-bottom: 0.625em;
 }
 
 body {
@@ -20,21 +21,22 @@ font-family: 'Lexend Deca', sans-serif;
 main {
   /* display: flex;
   flex-direction: column; */
-  border-radius: 7px;
+  border-radius: 8px;
   overflow: hidden;
   margin: 0 auto;
+  max-width: 327px;
 }
 
 h2 {
   color: #FFFFFF;
   text-transform: uppercase;
   font-family: 'Big Shoulders Display', cursive;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
-  font-size: 0.875rem;
+  font-size: 0.946rem;
   line-height: 28px;
 }
 
@@ -71,7 +73,7 @@ button {
 }
 
 .container {
-  padding: 2em;
+  padding: 3em;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -95,13 +97,11 @@ button {
 
   main {
   display: flex;
-  max-width: 1000px;
-  height: 600px;
+  max-width: 920px;
   }
 
   h2 {
     font-size: 2.8rem;
-    margin-bottom: 0.5em;
   }
 
   img {
@@ -109,18 +109,18 @@ button {
   }
 
   p {
-    line-height: 28px;
+    line-height: 1.5;
   }
 
   button {
-    margin-top: 8em;
-    height: 4em;
+    margin-top: 4.350em;
+    height: 3.6em;
     width: 11em;
     font-weight: 700;
   }
 
   .container {
-    padding: 3em 4.3em;
+    padding: 3em;
   }
 }
 
